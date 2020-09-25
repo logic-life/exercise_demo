@@ -1,28 +1,3 @@
 ﻿  main.cpp
-d:\vs2015\vc\include\algorithm(1503): error C2672: “operator __surrogate_func”: 未找到匹配的重载函数
-  d:\vs2015\vc\include\algorithm(1521): note: 参见对正在编译的函数 模板 实例化“_FwdIt std::_Unique_unchecked<Sales_data*,_Pr>(_FwdIt,_FwdIt,_Pr &)”的引用
-          with
-          [
-              _FwdIt=Sales_data *,
-              _Pr=std::equal_to<void>
-          ]
-  d:\vs2015\vc\include\algorithm(1528): note: 参见对正在编译的函数 模板 实例化“_FwdIt std::unique<_FwdIt,std::equal_to<void>>(_FwdIt,_FwdIt,_Pr)”的引用
-          with
-          [
-              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Sales_data>>>,
-              _Pr=std::equal_to<void>
-          ]
-  e:\github\demo\generic_learning_demo\generic_learning_demo\main.cpp(19): note: 参见对正在编译的函数 模板 实例化“_FwdIt std::unique<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Sales_data>>>>(_FwdIt,_FwdIt)”的引用
-          with
-          [
-              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Sales_data>>>
-          ]
-d:\vs2015\vc\include\algorithm(1503): error C2893: 未能使函数模板“unknown-type std::equal_to<void>::operator ()(_Ty1 &&,_Ty2 &&) const”专用化
-  d:\vs2015\vc\include\algorithm(1503): note: 用下列模板参数:
-  d:\vs2015\vc\include\algorithm(1503): note: “_Ty1=Sales_data &”
-  d:\vs2015\vc\include\algorithm(1503): note: “_Ty2=Sales_data &”
-d:\vs2015\vc\include\algorithm(1506): error C2672: “operator __surrogate_func”: 未找到匹配的重载函数
-d:\vs2015\vc\include\algorithm(1506): error C2893: 未能使函数模板“unknown-type std::equal_to<void>::operator ()(_Ty1 &&,_Ty2 &&) const”专用化
-  d:\vs2015\vc\include\algorithm(1506): note: 用下列模板参数:
-  d:\vs2015\vc\include\algorithm(1506): note: “_Ty1=Sales_data &”
-  d:\vs2015\vc\include\algorithm(1506): note: “_Ty2=Sales_data &”
+  Generic_learning_demo.vcxproj -> E:\GitHub\demo\Generic_learning_demo\Debug\Generic_learning_demo.exe
+  Generic_learning_demo.vcxproj -> E:\GitHub\demo\Generic_learning_demo\Debug\Generic_learning_demo.pdb (Full PDB)

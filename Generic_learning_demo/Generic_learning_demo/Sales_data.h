@@ -13,10 +13,9 @@ public:
 
 	Sales_data(string str=" ") :bookName(str) {}
 	Sales_data(const Sales_data& item) :bookName(item.bookName) {}
-	/*Sales_data& operator=(const Sales_data& item) {
-		bookName = item.bookName;
-		return *this;
-	}*/
+	bool operator==(const Sales_data& it)const {//重载==运算符，否则无法调用unique的相等判断
+		return it.bookName == this->bookName;
+	}
 
 	string isbn()const {
 		return bookName;
