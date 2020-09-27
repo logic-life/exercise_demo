@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\29942\desktop\demo\10.3.2exercise_demo\10.3.2exercise_demo\main.cpp(6): error C2365: “output”: 重定义；以前的定义是“函数”
+  c:\users\29942\desktop\demo\10.3.2exercise_demo\10.3.2exercise_demo\function.h(21): note: 参见“output”的声明
