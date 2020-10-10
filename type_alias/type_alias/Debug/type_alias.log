@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\29942\desktop\demo\type_alias\type_alias\main.cpp(17): warning C4101: “str”: 未引用的局部变量
+  type_alias.vcxproj -> C:\Users\29942\Desktop\demo\type_alias\Debug\type_alias.exe
+  type_alias.vcxproj -> C:\Users\29942\Desktop\demo\type_alias\Debug\type_alias.pdb (Partial PDB)
