@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/"/>
+    <qresource prefix="/prefix">
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/drop_out.png</file>
+        <file>images/find.png</file>
+        <file>images/list.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/other_save.png</file>
+        <file>images/paste.png</file>
+        <file>images/revoke.png</file>
+        <file>images/save.png</file>
+        <file>images/standard.png</file>
+        <file>images/view.png</file>
+        <file>images/关  闭.png</file>
+    </qresource>
+</RCC>

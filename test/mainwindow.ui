@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_P">
+    <property name="title">
+     <string>文件(&amp;P)</string>
+    </property>
+    <addaction name="actionxinjianwenjian"/>
+    <addaction name="actiondakaiwenjian"/>
+    <addaction name="actionguanbiwenjian"/>
+    <addaction name="actionbaocun"/>
+    <addaction name="actionlingcunwei"/>
+    <addaction name="actiontuichu"/>
+   </widget>
+   <widget class="QMenu" name="menu_E">
+    <property name="title">
+     <string>编辑(&amp;E）</string>
+    </property>
+    <addaction name="actionfuzhi"/>
+    <addaction name="actionzhantie"/>
+    <addaction name="actionjianqie"/>
+   </widget>
+   <addaction name="menu_P"/>
+   <addaction name="menu_E"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actiondakaiwenjian"/>
+   <addaction name="actionxinjianwenjian"/>
+   <addaction name="actionguanbiwenjian"/>
+   <addaction name="separator"/>
+   <addaction name="actionfuzhi"/>
+   <addaction name="actionzhantie"/>
+   <addaction name="actionjianqie"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionxinjianwenjian">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/new.png</normaloff>:/prefix/images/new.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建文件(&amp;N)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actiondakaiwenjian">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/open.png</normaloff>:/prefix/images/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开文件(&amp;O)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionguanbiwenjian">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/关  闭.png</normaloff>:/prefix/images/关  闭.png</iconset>
+   </property>
+   <property name="text">
+    <string>关闭文件(&amp;C)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionbaocun">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/save.png</normaloff>:/prefix/images/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存(&amp;S)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionlingcunwei">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/other_save.png</normaloff>:/prefix/images/other_save.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
+  </action>
+  <action name="actiontuichu">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/drop_out.png</normaloff>:/prefix/images/drop_out.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出(&amp;E)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionfuzhi">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/copy.png</normaloff>:/prefix/images/copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>复制</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionzhantie">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/paste.png</normaloff>:/prefix/images/paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>粘贴(&amp;P)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionjianqie">
+   <property name="icon">
+    <iconset resource="Resource_image.qrc">
+     <normaloff>:/prefix/images/cut.png</normaloff>:/prefix/images/cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>剪切(&amp;C)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Resource_image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
