@@ -1,4 +1,4 @@
-Matlab 学习文档、
+Matlab 学习文档
 
 //Excel 文件读取方式
 mpg_in = xlsread('mpg.xlsx');
