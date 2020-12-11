@@ -1,5 +1,5 @@
-Matlab 学习文档
-
+# **Matlab 学习文档**
+```
 //Excel 文件读取方式
 mpg_in = xlsread('mpg.xlsx');
 //指定对应的行列，指定读取第三列数据
@@ -54,6 +54,6 @@ ans='china'
 A=cell(2,3)
 //正确赋值方法为
 A{1,2}='china'
-
+```
 
 
