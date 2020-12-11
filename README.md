@@ -1,6 +1,6 @@
-# generic_exercise_demo
-c++prime练习题
-
+# **generic_exercise_demo**
+## **c++prime练习题**
+```
 10.3.1向算法传递函数
 
 谓词：是一个可调用的表达式，其返回结果是一个能用作条件的值。
@@ -178,7 +178,7 @@ auto check6=bind(check_size,_1,6);
 		将满足谓词的老值替换成新值，并拷贝到目标序列中
 		
 10.42	words.unique()//list版本直接消除重复元素list
-
+```
 
 
 
