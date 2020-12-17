@@ -19,7 +19,7 @@ num = xlsread(‘filename’,‘sheet’)
 num = xlsread(‘filename’, ‘range’)
 
 ### sheet和单元格范围同时限制。
-####式中括号内的三项都要加单引号，filename顾名思义，就是要导入的Excel的文件名，注意加.xls或.xlsx就好，第二个sheet就是表格页名，第三个range是指要导入数据的范围，这个对Excel不熟练的话建议用MATLAB打开Excel表格，直接用鼠标选中要导入的数据，然后表格里会自动出现选中数据的范围（这个的确好用），写入range即可。
+#### 式中括号内的三项都要加单引号，filename顾名思义，就是要导入的Excel的文件名，注意加.xls或.xlsx就好，第二个sheet就是表格页名，第三个range是指要导入数据的范围，这个对Excel不熟练的话建议用MATLAB打开Excel表格，直接用鼠标选中要导入的数据，然后表格里会自动出现选中数据的范围（这个的确好用），写入range即可。
 num = xlsread(‘filename’, ‘sheet’, ‘range’)
 
 ### 把返回的数据与文本分开保存。
